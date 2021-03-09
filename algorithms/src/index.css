@@ -84,7 +84,8 @@ body{
     width: fit-content;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
+    float: right;
 }
 
 .post-form > input{

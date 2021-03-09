@@ -1,22 +1,18 @@
 import React from 'react'
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import Header from './components/Header';
-import NewPostForm from './components/NewPostForm';
-import PostsList from './components/PostsList';
-import SearchForm from './components/SearchForm';
-import PostsContextProvider from './contexts/PostsContext';
-
+import Blog  from './components/Blog'
 
 function App() {
 
   return (
     <div className="App">
-      <PostsContextProvider>
-        <Header/>
-        <SearchForm />
-        <PostsList />
-        <NewPostForm/>
-      </PostsContextProvider>
+      <Router>
+        <Switch>
+          <Route exact path="/blog" component={Blog} />
+        </Switch>
+      </Router>
+      
     </div>
   );
 }
