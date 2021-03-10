@@ -8,22 +8,15 @@ function Home() {
     <div className="edu-container">
       <h2>About EDU</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum
+      Outbox EDU leverages boot camps to train individuals with limited or no experience in software development.
+      Breadcrumb
+      Learn how to code by leveraging our experienced industry facilitators, alumni community and partners. Join one of our two-month or three-month immersive programs. Get ready to work.
+
+
       </p>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum
+      Get an opportunity to work on industry projects, learn from experience so as to develop your skills and portfolio
+      Receive expert advise on how to prepare for the marketplace. This ranges from creating your online profile to how-to communicate well.
       </p>
      
     
