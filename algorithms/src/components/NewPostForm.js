@@ -10,7 +10,7 @@ export default function NewPostForm() {
     const [title, setTitle]= useState('')
     const [author, setAuthor]= useState('')
     const [content, setContent]= useState('')
-    const [image, setImage] = useState('')
+    // const [image, setImage] = useState('')
 
     const uploadImage = (files)=>{
         console.log(files[0])
@@ -46,7 +46,7 @@ export default function NewPostForm() {
                 <input type="text" placeholder="Author" value={author} onChange={(e)=>{setAuthor(e.target.value)}} required />
 
                 <label>Select Image </label>
-                <input type="file" id="img" name="img" accept="image/*" value={image} onChange={(e)=>{uploadImage(e.target.files)}} />
+                <input type="file" id="img" name="img" accept="image/*" onChange={(e)=>{uploadImage(e.target.files)}} />
 
                 <label>Content</label>
                 <textarea col="3" row="5" value={content} onChange={(e)=>{setContent(e.target.value)}} required></textarea>
