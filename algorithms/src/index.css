@@ -27,7 +27,7 @@ body{
 }
 
 .posts-list{
-    margin: 20px;
+    margin: 0 20px 20px 20px;
 }
 
 .posts-list > ul{
@@ -63,12 +63,18 @@ body{
 .add-comment{
     padding-left: 30px;
 }
-
+.side-bar{
+    display: flex;
+    /* flex-basis: 50%; */
+    flex-direction: column;
+    align-items: flex-end;
+}
 .search-form{
-    float: right;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-right: 20px;
-    
+    align-self: flex-start;
+    padding: 5px;
+    margin-left: 20px;
 }
 
 .search-form > input{
@@ -85,7 +91,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    float: right;
 }
 
 .post-form > input{
@@ -107,4 +112,9 @@ body{
     margin-top: 10px;
     width: fit-content;
 
+}
+
+.footer{
+    background-color: black;
+    
 }

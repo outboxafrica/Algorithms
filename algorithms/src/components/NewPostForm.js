@@ -38,7 +38,7 @@ export default function NewPostForm() {
     }
 
     return (
-        <aside style={{float:"right"}}>
+        <aside>
             <p className="title">CREATE</p>
             <form onSubmit={handleSubmit} className="post-form">
                 <input type="text" placeholder="Post Title" value={title} onChange={(e)=>{setTitle(e.target.value)}} required/>

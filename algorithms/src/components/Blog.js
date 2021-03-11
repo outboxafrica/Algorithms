@@ -1,11 +1,11 @@
 import React from 'react'
 
 import Header from './Header'
-import NewPostForm from './NewPostForm'
 import PostsList from './PostsList'
 import SearchForm from './SearchForm'
 
 import PostsContextProvider from '../contexts/PostsContext';
+import Footer from './Footer'
 
 export default function Blog() {
     return (
@@ -13,8 +13,9 @@ export default function Blog() {
            <PostsContextProvider>
                 <Header/>
                 <SearchForm />
+
                 <PostsList />
-                <NewPostForm/>
+                <Footer/>
             </PostsContextProvider>   
         </div>
     )

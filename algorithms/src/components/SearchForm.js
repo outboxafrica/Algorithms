@@ -2,6 +2,7 @@ import React, { useState, useContext } from 'react'
 
 import PostDetails from './PostDetails';
 import { PostsContext } from '../contexts/PostsContext';
+import NewPostForm from './NewPostForm';
 
 
 
@@ -34,12 +35,13 @@ export default function SearchForm() {
     }
 
     return (
-        <aside>
+        <aside className="side-bar">
             <form onSubmit={handleSubmit} className="search-form">
                 <p className="title">SEARCH</p>
                 <input type="text" placeholder="Search" value={searchTerm} 
                 onChange={(e)=>setSearchTerm(e.target.value)} />
             </form>
+            <NewPostForm/>
         </aside>
         
     )
