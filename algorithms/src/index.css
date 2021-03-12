@@ -87,6 +87,7 @@ body{
     background-color: #c4c4c498;
     padding: 20px;
     width: 30%;
+    margin: 10px;
     width: fit-content;
     display: flex;
     flex-direction: column;
@@ -116,5 +117,7 @@ body{
 
 .footer{
     background-color: black;
-    
+    color: #fff;
+    text-align: center;
+    padding: 10px;
 }

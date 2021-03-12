@@ -1,9 +1,8 @@
 import React from 'react'
 
-export default function Header() {
+export default function BlogIntro() {
     return (
         <div className="blog-header">
-            <span className="blog-header-text">OUR BLOG</span>
         </div>
     )
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Header from './Header'
+import BlogIntro from './BlogIntro'
 import PostsList from './PostsList'
 import SearchForm from './SearchForm'
 
@@ -11,7 +11,7 @@ export default function Blog() {
     return (
         <div>
            <PostsContextProvider>
-                <Header/>
+                <BlogIntro/>
                 <SearchForm />
 
                 <PostsList />
