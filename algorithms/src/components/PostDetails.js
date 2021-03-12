@@ -23,14 +23,14 @@ export default function PostDetails( { post } ) {
                     <button className="ui icon button" style={{marginLeft:"250px", marginTop:"3px", width:"35px"}} onClick={()=>removePost(post.id)}>
                         <i className="close icon"></i>
                     </button>
-                    <div className="ui card">
+                    <div className="ui card" style={{backgroundColor:"#f5f5f5", boxShadow:"2px 3px 2px grey"}}>
                     
                         <div className="image">
                             <Image cloudName="kolive"
                                  publicId={localStorage.getItem('image_url')}/>
                         </div>
-                        <div className="content">
-                            <div className="header">{post.title}</div>
+                        <div className="content" style={{backgroundColor:"#f5f5f5"}}>
+                            <div style={{fontSize: "20px", fontWeight:"500"}}>{post.title}</div>
                             <div className="meta">Posted in 2021</div>
                             <div className="description"> {post.content} </div>
                         </div>

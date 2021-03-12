@@ -51,7 +51,7 @@ export default function NewPostForm() {
                 <label>Content</label>
                 <textarea col="3" row="5" value={content} onChange={(e)=>{setContent(e.target.value)}} required></textarea>
 
-                <button type="submit" style={{backgroundColor:"#8CB4EF"}}>Create Post</button>
+                <button type="submit">Create Post</button>
             </form>
         </aside>
       
