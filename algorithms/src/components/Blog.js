@@ -3,7 +3,7 @@ import React from 'react'
 import BlogIntro from './BlogIntro'
 import PostsList from './PostsList'
 import SearchForm from './SearchForm'
-import Header from './Header'
+import BlogNav from './BlogNav'
 import PostsContextProvider from '../contexts/PostsContext';
 import Footer from './Footer'
 
@@ -11,7 +11,7 @@ export default function Blog() {
     return (
         <div>
            <PostsContextProvider>
-               <Header/>
+               <BlogNav/>
                 <BlogIntro/>
                 <SearchForm />
 

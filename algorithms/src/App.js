@@ -5,6 +5,7 @@ import Landingpage from './components/Landingpage'
 import Blog  from './components/Blog'
 import UserLogin from './components/UserLogin'
 import UserSign from './components/UserSign'
+import LookBook from './pages/lookBook';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/login" component={UserLogin} />
           <Route path="/signup" component={UserSign} />
           <Route exact path="/blog" component={Blog} />
+          <Route exact path="/lookbook" component={LookBook} />
         </Switch>
       </Router>
       

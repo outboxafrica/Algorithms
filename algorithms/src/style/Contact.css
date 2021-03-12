@@ -39,6 +39,8 @@
 
 #inputText_form{
     padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 .input_text{
      width: 90%;  
@@ -46,6 +48,10 @@
     border: 1px solid lightgray;
 }
 
+#inputText_form > textarea{
+    border: 1px solid lightgray;
+    margin: 5px;
+}
 
 
 #postmessage{
@@ -56,4 +62,5 @@
     color: white;
     font-size: 14px;
     border-radius: 2px;
+    margin: 5px;
 }

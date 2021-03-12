@@ -7,7 +7,7 @@ import EduEvents from "./EduEvents";
 
 function Landingpage() {
     return (
-        <div>
+        <div className="container-fluid">
              <Header />
             <Home />
             <EduEvents />
