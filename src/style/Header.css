@@ -11,17 +11,16 @@
 .header-logo{
     color: white;
     text-decoration: none;
-    margin-left: 2rem;
+    margin-left: 4rem;
+    font-size: medium;
 }
 
-/* .header-list{
-    float: right;
-} */
 
  .header-links{
     display: flex;
     flex-direction: row;
     list-style: none; 
+    margin-left: 40rem;
     
 } 
 

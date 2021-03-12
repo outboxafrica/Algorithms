@@ -13,7 +13,9 @@ function Contact() {
       </div>
       <div className="input_form">
         <form id="inputText_form">
-            <div> <input
+            <div>
+              <label
+          >Email:</label> <input 
             type="text"
             className="input_text"
             placeholder="Your Email"

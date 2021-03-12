@@ -2,6 +2,8 @@
     background-color: white; 
     display: flex;
     flex-direction: column;
+    box-shadow: 10px 5px 10px 10px rgba(0, 0, 0, 0.19);
+    
     align-items: center;
     justify-content: flex-end;
      max-height: 400px;
