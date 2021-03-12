@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #E5E5E5;
+}
+
+.blog-header{
+    background: url("./images/blog.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-blend-mode: overlay;
+     height: 400px;
+    width: 100%;
+    max-height: min-content;
+}
+
+.blog-header-text{
+    background-color: #E5E5E5;
+    text-align: center;
+    position: relative;
+    /* transform: translate(350px, 200px); */
+    display: flex;
+    width: fit-content;
+    padding: 10px;
+}
+
+.posts-list{
+    margin: 0 20px 20px 20px;
+}
+
+.posts-list > ul{
+    padding: 10px;
+    list-style-type: none;
+}
+
+.posts-list > ul > li{
+    padding: 20px;
+}
+
+.title{
+    text-transform: uppercase;
+    border-left: 3px solid #8CB4EF;
+    padding-left: 10px;
+    padding-top: 3px;
+    font-size: 20px;
+}
+
+.content{
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.author{
+    padding-bottom: 10px;
+}
+
+.remove{
+    margin-left: 250px;
+}
+
+.add-comment{
+    padding-left: 30px;
+}
+.side-bar{
+    display: flex;
+    /* flex-basis: 50%; */
+    flex-direction: column;
+    align-items: flex-end;
+}
+.search-form{
+    margin-top: 50px;
+    margin-right: 20px;
+    align-self: flex-start;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.search-form > input{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 5px 5px 5px 8px;
+}
+
+.post-form{
+    background-color: #c4c4c498;
+    padding: 20px;
+    width: 30%;
+    margin: 10px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.post-form > input{
+    border: 1px solid #fff;
+    padding: 5px;
+    margin: 5px;
+    width: fit-content;
+}
+
+.post-form > textarea{
+    width: fit-content;
+
+}
+.post-form > button{
+    border: 1px solid #8CB4EF;
+    background-color: #8CB4EF;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 10px;
+    width: fit-content;
+
+}
+
+.footer{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
