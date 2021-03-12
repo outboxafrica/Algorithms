@@ -1,0 +1,16 @@
+.our-events > h1{
+    text-align: center;
+    font-weight: normal;
+    margin-top: 3.5rem;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+} 
+
+.edu-events{
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: lightgray; 
+  
+}

@@ -1,0 +1,30 @@
+.edu-container{
+    background-color: #EEEEEE;
+    height: 50vh;
+    /* margin-top: 0px; */
+    border: grey;
+    margin: 1rem;
+    padding: 1rem;
+    /* max-width: 1500px; 
+    margin-left: auto;
+    margin-right: auto;  */
+}
+
+.edu-container > h2{
+    text-align: center;
+    font-weight: normal;
+    line-height: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.edu-container > p{
+    text-align: center;
+    font-weight: normal;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 2rem;
+    
+}
+

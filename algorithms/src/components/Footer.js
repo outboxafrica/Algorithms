@@ -1,9 +1,13 @@
 import React from 'react'
+import '../style/Footer.css'
 
-export default function Footer() {
+function Footer() {
     return (
-        <div className="footer text-center">
-            <p>Copyright <cite>2021</cite></p>
+        <div className='footer'>
+            <p>Copyright @ EDU 2021</p>
+            
         </div>
     )
 }
+
+export default Footer
