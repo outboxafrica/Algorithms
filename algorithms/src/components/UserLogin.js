@@ -2,7 +2,7 @@ import React from 'react'
 import Login from './Login'
 import {Link} from 'react-router-dom'
 import {Container} from 'react-bootstrap'
-import {AuthProvider} from "../context/AuthContext"
+import {AuthProvider} from "../contexts/AuthContext"
 
 export default function UserLogin() {
     return (
